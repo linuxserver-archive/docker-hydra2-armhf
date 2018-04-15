@@ -80,4 +80,5 @@ The web interface is at `<your ip>:5076` , to set up indexers and connections to
 
 ## Versions
 
++ **15.04.18:** Change to port 5076 in the Dockerfile.
 + **12.01.18:** Initial Release.
