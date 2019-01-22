@@ -5,6 +5,8 @@
 [appurl]: https://github.com/theotherp/nzbhydra2
 [hub]: https://hub.docker.com/r/lsioarmhf/hydra2/
 
+THIS IMAGE IS DEPRECATED. PLEASE USE THE MULTI-ARCH IMAGES AT `linuxserver/hydra2`
+
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
 The [LinuxServer.io][linuxserverurl] team brings you another container release featuring easy user mapping and community support. Find us for support at:
@@ -80,6 +82,7 @@ The web interface is at `<your ip>:5076` , to set up indexers and connections to
 
 ## Versions
 
++ **22.01.19:** This image is deprecated. Please use the multi-arch images at linuxserver/hydra2
 + **18.08.18:** Bump java version to 10, (bionic currently refers to it as version 11).
 + **10.08.18:** Rebase to ubuntu bionic.
 + **15.04.18:** Change to port 5076 in the Dockerfile.
